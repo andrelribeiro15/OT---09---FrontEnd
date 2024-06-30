@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+    <link rel="stylesheet" href="loja.css">
+</head>
+<body>
+    <header>
+        <h1>Loja Virtual</h1>
+    </header>
+    <aside class="filters">
+        <h2>Filtros</h2>
+        <div>
+            <label for="price-range">Faixa de Preço:</label>
+            <select id="price-range">
+                <option value="all">Todos</option>
+                <option value="0-50">R$ 0 - R$ 50</option>
+                <option value="51-100">R$ 51 - R$ 100</option>
+                <option value="101-200">R$ 101 - R$ 200</option>
+            </select>
+        </div>
+        <div>
+            <label for="sort">Ordenar por:</label>
+            <select id="sort">
+                <option value="name">Nome</option>
+                <option value="price-asc">Preço: Menor para Maior</option>
+                <option value="price-desc">Preço: Maior para Menor</option>
+            </select>
+        </div>
+    </aside>
+    <main class="product-grid">
+        <div class="produto" data-price="45">
+            <img src="imagens/loja.jpg" alt="Produto 1">
+            <h3>Produto 1</h3>
+            <p class="price">R$ 45,00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="produto" data-price="75">
+            <img src="imagens/loja-2.jpg" alt="Produto 2">
+            <h3>Produto 2</h3>
+            <p class="price">R$ 75,00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="produto" data-price="150">
+            <img src="imagens/loja-3.jpg" alt="Produto 3">
+            <h3>Produto 3</h3>
+            <p class="price">R$ 150,00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="produto" data-price="200">
+            <img src="imagens/loja-4.jpg" alt="Produto 4">
+            <h3>Produto 4</h3>
+            <p class="price">R$ 200,00</p>
+            <button>Comprar</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Loja Virtual. </p>
+    </footer>
+ 
+</body>
+</html>

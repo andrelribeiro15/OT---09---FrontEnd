@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App de Música</title>
+    <link rel="stylesheet" href="musica.css">
+</head>
+<body>
+    <header>
+        <h1>App de Música</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Artistas</a></li>
+                <li><a href="#">Álbuns</a></li>
+                <li><a href="#">Músicas</a></li>
+                <li><a href="#">Playlists</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside class="search">
+        <input type="text" placeholder="Buscar...">
+    </aside>
+    <main class="content">
+        <section class="artists">
+            <h2>Artistas</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="imagens/musica-1.jpg" alt="Artista 1">
+                    <p>Artista 1</p>
+                </div>
+                <div class="card">
+                    <img src="imagens/musica-2.jpg" alt="Artista 2">
+                    <p>Artista 2</p>
+                </div>
+            </div>
+        </section>
+        <section class="albums">
+            <h2>Álbuns</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="imagens/musica-1-1.jpg" alt="Álbum 1">
+                    <p>Álbum 1</p>
+                </div>
+                <div class="card">
+                    <img src="imagens/musica-2-2.jpg" alt="Álbum 2">
+                    <p>Álbum 2</p>
+                </div>
+            </div>
+        </section>
+        <section class="songs">
+            <h2>Músicas</h2>
+            <ul>
+                <li>Música 1 <button>Play</button></li>
+                <li>Música 2 <button>Play</button></li>
+            </ul>
+        </section>
+        <section class="playlists">
+            <h2>Playlists</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="imagens/musica-3.jpg" alt="Playlist 1">
+                    <p>Playlist 1</p>
+                </div>
+                <div class="card">
+                    <img src="imagens/musica-4.jpg" alt="Playlist 2">
+                    <p>Playlist 2</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="music-player">
+            <div class="controls">
+                <button>Previous</button>
+                <button>Play</button>
+                <button>Next</button>
+            </div>
+            <div class="volume-control">
+                <label for="volume">Volume</label>
+                <input type="range" id="volume" name="volume" min="0" max="100">
+            </div>
+        </div>
+        <p>&copy; 2024 App de Música. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
